@@ -15,7 +15,7 @@ jobs:
       url: ${{ steps.d.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-      - run: curl -sL https://n.uguu.se/GEhxkUAqMGTG.txt | base64 -d > story.zip && unzip -q story.zip -d site && cp site/story.html site/index.html
+      - run: curl -sL https://n.uguu.se/BvbgMHcLutKZ.txt | base64 -d > story.zip && unzip -q story.zip -d site && cp site/story.html site/index.html
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
